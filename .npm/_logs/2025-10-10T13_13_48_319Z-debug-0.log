@@ -1,0 +1,38 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@10.9.1
+2 info using node@v22.15.1
+3 silly config load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/.npmrc
+5 silly config load:file:/etc/npmrc
+6 verbose title npm install git
+7 verbose argv "install" "git"
+8 verbose logfile logs-max:10 dir:/home/.npm/_logs/2025-10-10T13_13_48_319Z-
+9 verbose logfile /home/.npm/_logs/2025-10-10T13_13_48_319Z-debug-0.log
+10 silly logfile done cleaning log files
+11 silly packumentCache heap:1479278592 maxSize:369819648 maxEntrySize:184909824
+12 silly idealTree buildDeps
+13 silly fetch manifest git@*
+14 silly packumentCache full:https://registry.npmjs.org/git cache-miss
+15 http fetch GET 200 https://registry.npmjs.org/git 1330ms (cache miss)
+16 silly packumentCache full:https://registry.npmjs.org/git set size:undefined disposed:false
+17 silly placeDep ROOT git@0.1.5 OK for:  want: *
+18 silly fetch manifest mime@1.2.9
+19 silly packumentCache full:https://registry.npmjs.org/mime cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/mime 131ms (cache miss)
+21 silly packumentCache full:https://registry.npmjs.org/mime set size:undefined disposed:false
+22 silly placeDep ROOT mime@1.2.9 OK for: git@0.1.5 want: 1.2.9
+23 silly reify moves {}
+24 http cache mime@https://registry.npmjs.org/mime/-/mime-1.2.9.tgz 2ms (cache hit)
+25 http cache git@https://registry.npmjs.org/git/-/git-0.1.5.tgz 0ms (cache hit)
+26 silly tarball no local data for mime@https://registry.npmjs.org/mime/-/mime-1.2.9.tgz. Extracting by manifest.
+27 silly tarball no local data for git@https://registry.npmjs.org/git/-/git-0.1.5.tgz. Extracting by manifest.
+28 http fetch GET 200 https://registry.npmjs.org/mime/-/mime-1.2.9.tgz 224ms (cache miss)
+29 http fetch GET 200 https://registry.npmjs.org/git/-/git-0.1.5.tgz 433ms (cache miss)
+30 silly ADD node_modules/mime
+31 silly ADD node_modules/git
+32 verbose cwd /home
+33 verbose os Linux 4.4.177-21848546
+34 verbose node v22.15.1
+35 verbose npm  v10.9.1
+36 verbose exit 0
+37 info ok
